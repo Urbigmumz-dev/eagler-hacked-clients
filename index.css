@@ -100,7 +100,7 @@ form span input.text {
     border-radius: 2px;
     background-color: #222;
     position: absolute;
-    left: 40%;
+    left: 45%;
     top: 105%;
     transform: translate(-50%, -50%);
 }
@@ -111,7 +111,7 @@ form span input.button {
     background-color: #222;
     position: absolute;
     left: 90%;
-    top: 105%;
+    top: 55%;
     transform: translate(-50%, -50%);
 }
 
