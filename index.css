@@ -80,6 +80,10 @@ html, body {
     background-color: #333;
 }
 
+.nav ul li.extended {
+    width: 100px;
+}
+
 #footer {
 
 }
