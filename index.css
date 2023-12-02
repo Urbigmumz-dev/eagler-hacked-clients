@@ -21,32 +21,62 @@ html, body {
     animation: fadein 333ms forwards;
 }
 
-#nav {
-
+.nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    user-select: none;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
 }
 
-#nav ul {
-
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-#nav ul li {
-
+.nav ul li {
+    float: left;
+    width: 80px;
+    transition: background-color 100ms;
+    height: 50px;
 }
 
-#nav ul li:not(#active):active {
-
+.nav ul li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#nav ul li#active:active {
-
+.nav ul li.active {
+    background-color: #337733;
 }
 
-#nav ul li:not(#active):hover {
-
+.nav ul li:hover:not(.active) {
+    background-color: #444;
 }
 
-#nav ul li#active:hover {
+.nav ul li.active:hover {
+    background-color: #338833;
+}
 
+.nav ul li.active:active {
+    background-color: #336633;
+}
+
+.nav ul li:active:not(.active) {
+    background-color: #333;
 }
 
 #footer {
