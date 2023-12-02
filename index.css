@@ -106,11 +106,12 @@ form span input.text {
 }
 
 form span input.button {
+    width: 5%;
     border: 3px solid var(--second-background-color);
     border-radius: 2px;
     background-color: #222;
     position: absolute;
-    left: 75%;
+    left: 65%;
     top: 105%;
     transform: translate(-50%, -50%);
 }
