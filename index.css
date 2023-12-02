@@ -100,13 +100,19 @@ form span input {
     border-radius: 2px;
     background-color: #222;
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 105%;
     transform: translate(-50%, -50%);
 }
 
 form span button {
-    
+    border: 3px solid var(--second-background-color);
+    border-radius: 2px;
+    background-color: #222;
+    position: absolute;
+    left: 90%;
+    top: 105%;
+    transform: translate(-50%, -50%);
 }
 
 .links {
