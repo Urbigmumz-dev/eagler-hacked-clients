@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+:root {
+    --main-text-color: #ddffff;
+    --main-background-color: #344343;
+    --second-background-color: #111;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: var(--main-background-color);
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+    color: var(--main-text-color);
+    animation: fadein 333ms forwards;
+}
+
+#nav {
+
+}
+
+#nav ul {
+
+}
+
+#nav ul li {
+
+}
+
+#nav ul li:not(#active):active {
+
+}
+
+#nav ul li#active:active {
+
+}
+
+#nav ul li:not(#active):hover {
+
+}
+
+#nav ul li#active:hover {
+    
+}
+
+#footer {
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
