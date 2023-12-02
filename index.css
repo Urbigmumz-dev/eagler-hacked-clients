@@ -18,7 +18,8 @@ html, body {
 * {
     font-family: 'Kanit', sans-serif;
     color: var(--main-text-color);
-    animation: fadein 333ms forwards;
+    opacity: 0;
+    animation: fadein 500ms forwards;
 }
 
 .nav {
