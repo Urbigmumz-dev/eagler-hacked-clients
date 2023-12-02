@@ -46,7 +46,7 @@ html, body {
 }
 
 #nav ul li#active:hover {
-    
+
 }
 
 #footer {
@@ -55,9 +55,9 @@ html, body {
 
 @keyframes fadein {
     0% {
-        opacity: 1;
+        opacity: 0;
     }
     100% {
-        opacity: 0;
+        opacity: 1;
     }
 }
