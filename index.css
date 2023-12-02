@@ -94,7 +94,7 @@ form {
     height: 60%;
 }
 
-form span input {
+form span input.text {
     width: 50%;
     border: 3px solid var(--second-background-color);
     border-radius: 2px;
@@ -105,7 +105,7 @@ form span input {
     transform: translate(-50%, -50%);
 }
 
-form span button {
+form span input.button {
     border: 3px solid var(--second-background-color);
     border-radius: 2px;
     background-color: #222;
